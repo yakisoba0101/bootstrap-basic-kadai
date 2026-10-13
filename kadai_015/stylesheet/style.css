@@ -132,7 +132,7 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100;
+  min-width: 100%;
 
   /* 高さはcarousel-itemに揃える */
   height: 32rem;
@@ -286,7 +286,7 @@ p {
 }
 
 /* restaurant_info直下の子要素imgタグ全てに適用される */
-.restaurant_info　img {
+.restaurant_info img {
   width: 20px;
   height: 20px;
   margin-right: 10px;
@@ -336,3 +336,16 @@ p {
  .chef_bg {
    background-color: #fdf5e6;
  }
+
+ .chef-img {
+  width: 400px;         /* ここを好きな幅に調整 */
+  height: auto;         /* 縦横比は自動で調整 */
+  max-width: 80%;      /* 親要素を超えないように */
+}
+
+
+/* テキストの行間と余白が広すぎたため調整 */
+.chef_text p {
+  margin-bottom: 12px; /* デフォルトより少し狭くする */
+  line-height: 1.8;    /* 読みやすさを保ちつつ調整 */
+}

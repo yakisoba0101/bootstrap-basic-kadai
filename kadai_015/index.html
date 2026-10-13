@@ -8,27 +8,21 @@
   <meta name="description" content="">
   <meta name="author" content="SAMURAI ENGINEER">
   <title>SAMURAI XD_HTML教材</title>
-   <!-- 先にBootstrapのCSSを読み込む -->
-  <!-- ************************************************ bootstrap.min.cssの読み込み -->
   <!-- BootstrapのCSSの読み込み -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
   <!-- ************************************************ bootstrap.bundle.min.jsの読み込み -->
  <!-- BootstrapのJavaScriptライブラリの読み込み -->
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous" defer>
-
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
+ integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous" defer>
   </script>
 
   <!-- ************************************************ Google Font読み込み -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
-  <!-- ************************************************ Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
-    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    
-  <!-- Bootstrapの読み込みのlinkタグよりも後ろに、style.cssを読み込むlinkタグを記述する -->
-  <!-- ************************************************今回作成する styles.cssの読み込み -->
+   <!-- ************************************************今回作成する styles.cssの読み込み -->
   <link href="stylesheet/style.css" rel="stylesheet">
   <!-- ************************************************  -->
 </head>
@@ -42,7 +36,7 @@
           <img class="img-fluid navbar_brand_logo" src="img/site_logo.png" alt="サイトアイコン"><span>SAMURAI KITCHEN</span>
         </a>
         <div class="navbar-toggler hamburger_menu" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          　aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <input type="checkbox" id="hamburger_btn_check">
           <label for="hamburger_btn_check" class="hamburger_btn">
             <img class="btn_open" src="img/button_open.png" alt="ナビゲーションバーのボタン">
@@ -107,7 +101,7 @@
               <!-- 独自クラスで位置とフォントを変更　-->
               <h1 class="my_carousel_caption">
                 Welcome to<br>
-                SAMURAI&nbsp;KITCHEN
+                SAMURAI KITCHEN
               </h1>
             </div>
           </div>
@@ -143,6 +137,7 @@
        <span class="carousel-control-next-icon" aria-hidden="true"></span>
        <span class="visually-hidden">Next</span>
      </a>
+    </div>
 
     <!-- カルーセル終了 -->
 
@@ -441,7 +436,7 @@
                    <img src="img/star-point.png" class="star_img" alt="star">
                    <img src="img/star-point.png" class="star_img" alt="star">
                    <img src="img/star-point.png" class="star_img" alt="star">
-                   <img src="img/star-point.png" class="star_img" alt="star">
+                   <img src="img/star-no-point.png" class="star_img" alt="no-star">
                  </div>
                  <h5>素敵な時間と思い出</h5>
                  <p>
@@ -456,43 +451,7 @@
      </div>
     </section>
     <!-- ************************************************ レビューセクション終了 -->
-   <!-- ************************************************ CHEFセクション開始 -->
- <section class="chef_bg" id="chef">
-           <!--コンテンツの中央揃え。上下方向にパディング（サイズ5）。下方向にマージン（サイズ5）。 -->
-     <div class="container py-5 mb-5">
-       <!-- rowクラス（行） -->
-       <div class="row">
-         <!-- 左側カラム（6/12分割） -->
-         <div class="col-lg-6 text-left">
-           <!-- 上下方向にパディング（サイズ5） -->
-           <div class="py-5">
-             <!-- 下方向にマージン（サイズ5） -->
-             <h2 class="section_title chef mb-5">
-               CHEF
-             </h2>
-             <!-- 下方向にマージン（サイズ2） -->
-             <p class="mb-2">
-               レオナルド
-             </p>
 
-             <!-- 下方向にマージン（サイズ2） -->
-             <p class="mb-2">
-               イタリア・ラツィオ州ローマ県ローマ出身。 <br>イタリア料理の発展・普及、料理人の育成など、料理を通した社会貢献を行っている。 <br>得意料理はローマとカラブリア州郷土料理を中心とした真のお洒落でシンプルなイタリア料理。 <br>料理イベント、広告、雑誌でも活躍中。
-             </p>
-
-           </div>
-         </div>
-
-         <!-- 右側カラム（6/12分割） -->
-         <div class="col-lg-6">
-
-           <!-- 画像を配置 -->
-           <img src="img/chef.jpg" class="img-fluid" alt="レオナルド">
-         </div>
-       </div>
-     </div>
-    </section>
-    <!-- ************************************************ CHEF終了-->    
     <!-- ************************************************ アクセスセクション開始 -->
     <section id="access">
      <div class="container">
@@ -569,7 +528,7 @@
              </p>
 
              <!-- SNSアイコンに独自クラスsns_imgを追加 -->
-             <img src="img/icon-facebook.png" alt="facebook">
+             <img src="img/icon-facebook.png" class="sns_img" alt="facebook">
              <img src="img/icon-twitter.png" class="sns_img" alt="twitter">
            </div>
          </div>
